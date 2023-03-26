@@ -1,0 +1,26 @@
+pipeline{
+ agent any 
+ stages{
+  stage ('build'){
+   steps{
+    echo 'buildind afile'
+    }
+    }
+    stage ('test'){
+    steps{
+     echo 'testing a file'
+     }
+     }
+     stage ('deploy'){
+     steps{
+      echo 'deploying a file'
+      
+      }
+      }
+      }
+      }
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
